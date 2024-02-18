@@ -83,7 +83,6 @@ Berdasarkan data yang tersedia, terdapat 5 variabel kategorikal yang perlu diuba
 2. Ordinal Encoding untuk variabel `Options`,  karena nilai-nilainya memiliki tingkatan atau tingkat hierarki yang dapat diurutkan, seperti 'Standard' mungkin merupakan opsi yang lebih dasar atau standar daripada 'Semi Full' dan 'Full'. 
 3. Binary Encoding lebih cocok digunakan untuk variabel `Type`, `Region`, dan `Make` karena memiliki nilai unik yang beragam dan tidak memiliki hubungan ordinal yang dapat diurutkan.
 
-![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/cc40f1ff-d15e-4d14-87c7-9d0db8fff6d1)
 
 Berdasarkan analisis ini, model Extreme Gradient Boost memiliki kinerja terbaik dengan skor evaluasi yang lebih rendah dan nilai R2 yang lebih tinggi, menunjukkan kemampuan yang lebih baik dalam menjelaskan variasi dalam data target.
 
@@ -122,8 +121,6 @@ Setelah melakukan *hyperparameter tuning* pada model Extreme Gradient Boost, dip
 - Hasil ini menunjukkan bahwa model dengan pengaturan parameter tersebut memberikan kinerja optimal dengan nilai *score* yang rendah, menandakan performa prediksi yang baik.
 
 Proses selanjutnya setelah menentukan parameter terbaik melalui *hyperparameter tuning* adalah menerapkan perubahan tersebut ke dalam model yang telah dibangun.
-
-![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/0862413e-2dad-4c5d-b52a-571446962711)
 
 ![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/79603555-1567-4b82-a0f3-b2025bb167ff)
 

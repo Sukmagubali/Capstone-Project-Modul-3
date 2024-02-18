@@ -1,4 +1,4 @@
-Model Prediction Saudi Arabia Used Cars
+![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/494cb3f0-02de-46f7-819d-bae18dd2b5a2)Model Prediction Saudi Arabia Used Cars
 [Sumber data Saudia Arabia Used Cars](https://drive.google.com/drive/folders/1_fR7R0srpZgnFnanbrmELgnK-xmzMAHp) 
 
 ### **Contents**
@@ -83,20 +83,13 @@ Berdasarkan data yang tersedia, terdapat 5 variabel kategorikal yang perlu diuba
 2. Ordinal Encoding untuk variabel `Options`,  karena nilai-nilainya memiliki tingkatan atau tingkat hierarki yang dapat diurutkan, seperti 'Standard' mungkin merupakan opsi yang lebih dasar atau standar daripada 'Semi Full' dan 'Full'. 
 3. Binary Encoding lebih cocok digunakan untuk variabel `Type`, `Region`, dan `Make` karena memiliki nilai unik yang beragam dan tidak memiliki hubungan ordinal yang dapat diurutkan.
 
+**Train and Test Splitting**
 
-Berdasarkan analisis ini, model Extreme Gradient Boost memiliki kinerja terbaik dengan skor evaluasi yang lebih rendah dan nilai R2 yang lebih tinggi, menunjukkan kemampuan yang lebih baik dalam menjelaskan variasi dalam data target.
+Splitting Data Train 70 : Data Test 30
 
-#### **Extreme Gradient Boost**
-Extreme Gradient Boosting (XGBoost) adalah algoritma machine learning yang merupakan pengembangan dari Gradient Boosting Machine (GBM). XGBoost menggunakan teknik ensemble learning untuk meningkatkan kinerja model prediksi. Algoritma ini bekerja dengan cara menggabungkan beberapa model prediksi yang lemah (weak learners) menjadi satu model yang lebih kuat (strong learner).
+![model model](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/f62eb36b-e3be-40fc-9faa-e159048eb055)
 
-XGBoost memiliki beberapa keunggulan, antara lain:
-1. **Skalabilitas**: XGBoost dapat diimplementasikan pada dataset yang besar dengan cepat dan efisien.
-2. **Regularisasi**: Algoritma ini memiliki mekanisme regularisasi yang dapat mengurangi overfitting.
-3. **Penanganan Missing Values**: XGBoost dapat menangani missing values secara otomatis.
-4. **Penanganan Variabel Kategorikal**: XGBoost dapat menangani variabel kategorikal tanpa perlu melakukan encoding terlebih dahulu.
-5. **Performa yang Tinggi**: XGBoost sering kali memberikan hasil yang lebih baik dibandingkan dengan algoritma machine learning lainnya.
-
-XGBoost juga memiliki beberapa parameter yang dapat diatur untuk meningkatkan kinerja model, seperti learning rate, jumlah pohon (n_estimators), kedalaman pohon (max_depth), dan lain-lain.
+Berdasarkan analisis, model Extreme Gradient Boost memiliki kinerja terbaik dengan skor evaluasi yang lebih rendah dan nilai R2 yang lebih tinggi, menunjukkan kemampuan yang lebih baik dalam menjelaskan variasi dalam data target.
 
 #### **Extreme Gradient Boost**
 Extreme Gradient Boosting (XGBoost) adalah algoritma machine learning yang merupakan pengembangan dari Gradient Boosting Machine (GBM). XGBoost menggunakan teknik ensemble learning untuk meningkatkan kinerja model prediksi. Algoritma ini bekerja dengan cara menggabungkan beberapa model prediksi yang lemah (weak learners) menjadi satu model yang lebih kuat (strong learner).
@@ -109,7 +102,6 @@ XGBoost memiliki beberapa keunggulan, antara lain:
 5. **Performa yang Tinggi**: XGBoost sering kali memberikan hasil yang lebih baik dibandingkan dengan algoritma machine learning lainnya.
 
 XGBoost juga memiliki beberapa parameter yang dapat diatur untuk meningkatkan kinerja model, seperti learning rate, jumlah pohon (n_estimators), kedalaman pohon (max_depth), dan lain-lain.
-Dari perbandingan nilai metrik evaluasi antara data train dan test pada model Extreme Gradient Boost, dapat disimpulkan bahwa tidak ada perbedaan yang signifikan, menunjukkan bahwa model cenderung tidak mengalami overfitting. Kesimpulan tersebut mendukung ide untuk melakukan hyperparameter tuning dengan tujuan meningkatkan kinerja model pada data test.
 
 Setelah melakukan *hyperparameter tuning* pada model Extreme Gradient Boost, diperoleh perubahan sebagai berikut:
 
@@ -123,6 +115,8 @@ Setelah melakukan *hyperparameter tuning* pada model Extreme Gradient Boost, dip
 Proses selanjutnya setelah menentukan parameter terbaik melalui *hyperparameter tuning* adalah menerapkan perubahan tersebut ke dalam model yang telah dibangun.
 
 ![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/79603555-1567-4b82-a0f3-b2025bb167ff)
+
+![range harga](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/ca55b8d6-4fd6-420c-8e1c-071e3bce35f3)
 
 **Limitasi**
 

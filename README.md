@@ -63,7 +63,6 @@ Pada tahap ini, kita akan melakukan cleaning pada data yang nantinya data yang s
 - Mengubah data type yang belum sesuai
 
 **Data Correlation**
-![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/f9a7bc69-4493-4167-805c-101efe089baf)
 
 Berdasarkan matriks korelasi, kita dapat menyimpulkan bahwa tidak ada fitur yang memiliki korelasi yang signifikan dengan fitur Price. Korelasi tertinggi terjadi antara fitur Year dengan Price. Secara umum, nilai korelasi cenderung positif, namun pada fitur Mileage, korelasinya memiliki arah yang berlawanan.
 

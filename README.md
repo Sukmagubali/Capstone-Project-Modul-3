@@ -11,20 +11,25 @@
 
 ****
 ### **Business Problem Understanding**
+
 **Context**
 
 Pasar mobil bekas di Arab Saudi terus mengalami pertumbuhan seiring dengan perubahan dinamika ekonomi dan preferensi konsumen. Dalam beberapa tahun terakhir, meningkatnya permintaan akan mobil bekas mencerminkan dorongan konsumen untuk memiliki kendaraan pribadi tanpa harus mengeluarkan biaya sepenuhnya untuk membeli mobil baru. Faktor-faktor seperti perubahan kondisi keuangan atau kebutuhan mobilitas sehari-hari dapat menjadi pendorong bagi konsumen untuk menjelajahi opsi mobil bekas.
+
 **Problem Statement**
 
 Dalam konteks dataset mobil bekas dari syarah.com, terdapat 5624 rekam data mobil bekas yang mencakup informasi tentang berbagai aspek. Tantangan utama yang dihadapi adalah kesulitan dalam menentukan harga yang optimal untuk mobil bekas. Faktor-faktor seperti jenis transmisi, tipe mobil, jarak tempuh, dan opsi tambahan dapat mempengaruhi harga yang juga menjadi variabel penting. Dalam konteks ini, perlu dikembangkan metode atau model yang dapat memberikan estimasi harga yang akurat dan transparan berdasarkan fitur-fitur mobil bekas yang terdapat dalam dataset, sehingga dapat meningkatkan kejelasan dalam proses jual-beli mobil bekas.
+
 **Goals**
 
 Berdasarkan tantangan penentuan harga optimal pada mobil bekas, diperlukan pengembangan alat atau model prediksi harga yang dapat membantu penjual untuk **menetapkan harga jual yang tepat untuk setiap mobil yang akan dijual**. Dengan mempertimbangkan variasi fitur pada setiap mobil, seperti kondisi mesin, tahun produksi, dan opsi tambahan, prediksi harga yang lebih akurat dapat meningkatkan potensi keuntungan bagi penjual dan tetap bersaing di pasar. Untuk platform mobil bekas, alat prediksi yang memberikan estimasi harga yang adil dapat meningkatkan jumlah penjual dan kendaraan yang terdaftar, yang pada akhirnya dapat meningkatkan pendapatan melalui biaya transaksi, baik dari penjual maupun pembeli.
+
 **Analytic Approach**
 
 Dalam tahap analisis ini, langkah awal dilakukan melalui eksplorasi data untuk mengungkap pola atau perbedaan di antara fitur-fitur yang ada. Proses eksplorasi ini bertujuan memberikan wawasan mendalam mengenai faktor-faktor yang berpotensi memengaruhi harga mobil bekas.
 
 Setelah berhasil mengidentifikasi pola-pola tersebut, langkah selanjutnya adalah merancang dan membangun model regresi. Model ini berperan sebagai alat prediksi harga mobil bekas, dengan fokus utama pada mencegah harga yang terlalu tinggi (overpriced) atau terlalu rendah (underpriced). Pemanfaatan regresi memungkinkan kita untuk menemukan korelasi antara fitur-fitur spesifik dan harga, sehingga pengguna dapat memperoleh estimasi harga yang lebih akurat.
+
 **Metric Evaluation**
 
 Dalam membangun model machine learning ini, diperlukan beberapa evaluasi metrik sebagai berikut :
@@ -34,6 +39,7 @@ Dalam membangun model machine learning ini, diperlukan beberapa evaluasi metrik 
 - R-Square  : Menjelaskan seberapa besar variasi nilai Y yang dapat dijelaskan oleh model.
 
 Model akan semakin akurat dalam memprediksi harga suatu mobil bekas sesuai dengan limitasi fitur yang dipakai apabila nilai R-Square semakin mendekati nilai 1 dan nilai RMSE, MAE, dan MAPE yang dihasilkan semakin kecil.
+
 ### **Data Understanding**
 - Dataset berisi catatan mobil bekas yang dikumpulkan dari syarah.com
 - Setiap catatan mewakili satu mobil bekas, memberikan detail seperti nama merek, model, tahun pembuatan, asal, opsi, kapasitas mesin, jenis transmisi, jarak tempuh, harga di wilayah tertentu, dan status negosiasi.

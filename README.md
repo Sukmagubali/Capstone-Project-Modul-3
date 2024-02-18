@@ -1,4 +1,3 @@
-![image](https://github.com/Sukmagubali/Capstone-Project-Modul-3/assets/151388496/494cb3f0-02de-46f7-819d-bae18dd2b5a2)Model Prediction Saudi Arabia Used Cars
 [Sumber data Saudia Arabia Used Cars](https://drive.google.com/drive/folders/1_fR7R0srpZgnFnanbrmELgnK-xmzMAHp) 
 
 ### **Contents**
